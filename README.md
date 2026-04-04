@@ -1,4 +1,4 @@
-![logo URV](docs/urv.jpg){width=400px}
+<img src="docs/urv.jpg" width="400">
 
 # Lab 3 – Data Store (QueryBuilder, Caché APCu i Redis)
 
