@@ -29,36 +29,21 @@ mkdir lab3
 cd lab3
 ```
 
-2. Cloneu el repositori de la llibreria dins de la carpeta `lab3`:
-
-```bash
-git clone https://github.com/Sistemes-de-comerc-electronic/Codi-Llibreria.git
-```
-
-3. Cloneu aquest repositori al vostre ordinador (dins de `lab3` també):
+2. Cloneu aquest repositori al vostre ordinador (dins de `lab3`):
 
 ```bash
 git clone https://github.com/Sistemes-de-comerc-electronic/Lab3.git .
 ```
 
-4. Si ho heu fet bé haureu de tenir aquesta estructura:
-
-```
-lab3/
-├── Codi-Llibreria/
-├── Lab3/
-```
-
-5. Entreu a la carpeta `Lab3` i seguiu les instruccions del README per configurar el projecte Symfony:
+3. Instal·leu les dependències:
 
 ```bash
-cd Lab3
 composer install
-````
+```
 
-6. Configureu el fitxer `.env` amb les vostres dades de connexió a la base de dades (usant `lab_bd`). Podeu copiar-ho de labs anteriors.
+4. Configureu el fitxer `.env` amb les vostres dades de connexió a la base de dades (usant `lab_bd`). Podeu copiar-ho de labs anteriors.
 
-7. Aixequeu el servidor de desenvolupament:
+5. Aixequeu el servidor de desenvolupament:
 
 ```bash
 symfony server:start
