@@ -1,3 +1,5 @@
+![logo URV](docs/urv.jpg){width=400px}
+
 # Lab 3 – Data Store (QueryBuilder, Caché APCu i Redis)
 
 Com a tal fer els exercicis no compta per a nota, però si els pengeu al Moodle podré tenir-ho en compte.
