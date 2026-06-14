@@ -2,6 +2,10 @@
 
 Aquest laboratori treballa dades, persistència i cache. Cada tasca ha de tenir PR propi i proves que demostrin el comportament de BD o cache.
 
+## Nivell de guia
+
+**Nivell 3 - Semiguiat.** La IA pot proposar alternatives, però vosaltres decidiu criteri de cerca, dades de prova, TTL i riscos.
+
 ## Entrega per cada tasca
 
 - **Descripció funcional:** què s'ha de fer i per què aporta valor al projecte.

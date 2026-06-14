@@ -8,6 +8,10 @@ A partir d'aquest curs aquests exercicis es treballen com una activitat guiada a
 
 Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
+## Progressió de l’ajuda IA
+
+**Nivell 3 - Semiguiat.** L’agent IA no hauria de decidir-ho tot. Pot proposar opcions, però l’estudiant ha de triar criteris de cerca, dades de prova, TTL i riscos.
+
 ## Entrega per tasca
 
 Per cada targeta del Jira, Trello o GitHub Projects heu d'entregar:
