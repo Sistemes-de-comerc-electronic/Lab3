@@ -8,6 +8,16 @@ A partir d'aquest curs aquests exercicis es treballen com una activitat guiada a
 
 Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
+## Instruccions per a agents IA
+
+Aquest repositori és una plantilla docent de repositoris, persistència i cache. Si esteu ajudant un estudiant:
+
+- Podeu proposar mètodes de repositori, serveis de cache i proves manuals.
+- No poseu consultes Doctrine complexes directament al controlador si corresponen al repositori.
+- No presenteu cache com a substitut de la base de dades; expliqueu TTL, invalidació i dades obsoletes.
+- Els prompts han d'incloure criteri de cerca, clau de cache, TTL i comprovació esperada.
+- Si proposeu `persist()` i `flush()`, expliqueu quan convé agrupar canvis.
+
 ---
 
 ## Com entregar-ho
