@@ -1,23 +1,25 @@
 # Activitat guiada amb IA - Lab 3
 
-Aquest repositori és el punt de partida per practicar repositoris, QueryBuilder, persistència i cache. La IA us ha d'ajudar a raonar disseny, responsabilitats i proves, no només a generar codi.
+Aquest laboratori treballa dades, persistència i cache. Cada tasca ha de tenir PR propi i proves que demostrin el comportament de BD o cache.
 
-## Què heu de fer
+## Entrega per cada tasca
 
-1. Feu un prompt per crear una consulta amb QueryBuilder i paràmetres bindejats.
-2. Feu un prompt per entendre `persist()` i `flush()` en una operació de creació o actualització.
-3. Feu un prompt per dissenyar una estratègia de cache amb clau i TTL.
-4. Feu un prompt per provar manualment que la cache funciona i pot quedar obsoleta.
-5. Demaneu a la IA que revisi si el codi queda al repositori, servei o controlador correcte.
+- **Descripció funcional:** què s'ha de fer i per què aporta valor al projecte.
+- **Prompt utilitzat:** prompt inicial i prompts de refinament, si n'hi ha.
+- **Pla generat per la IA:** pla complet o resum si l'eina no el guarda.
+- **Link al PR:** URL del PR amb els commits associats. Pot estar obert o merged.
+- **Joc de proves:** casos correctes, errors esperats, dades de prova, codis HTTP si n'hi ha, captures, curl/Postman o comprovació a BD.
+- **Revisió crítica:** què ha fet bé la IA, què heu hagut de corregir i quines decisions són vostres.
 
-## INPUTS per Moodle
+## Tasques suggerides
 
-- Prompt de consulta amb criteri i justificació.
-- Prompt de persistència i comprovació a BD.
-- Prompt de cache amb clau, TTL i limitacions.
-- Pla de prova manual abans/després de canviar dades.
-- Reflexió final sobre responsabilitats i riscos.
+1. Implementar una consulta amb QueryBuilder.
+2. Crear o actualitzar una entitat amb `persist()` i `flush()`.
+3. Afegir cache amb clau i TTL.
 
-## Recordatori
+## Exemple de joc de proves
 
-La cache millora rendiment, però pot donar dades antigues. El prompt ha de fer explícit aquest risc.
+- Consulta amb resultats -> retorna els elements esperats.
+- Consulta sense resultats -> retorna llista buida o resposta controlada.
+- Cache buida -> consulta BD i desa resultat.
+- Cache plena -> reutilitza resultat i es documenta el risc de dades obsoletes.
